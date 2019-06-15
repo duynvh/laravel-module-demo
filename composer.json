@@ -1,0 +1,26 @@
+{
+    "name": "module/demo",
+    "description": "A package demo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nguyen Vo Hoang Duy",
+            "email": "nguyenvohoangduy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Module\\Demo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Module\\Demo\\Providers\\DemoServiceProvider"
+            ]
+        }
+    }
+}
